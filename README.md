@@ -42,17 +42,17 @@ A clean, card-style layout where users can search for a game and view its detail
 - **Total Games Published/Developed (KPI):** Shows the total number of games published or developed based on selection.
 - **Total Copies Sales / Avg Critic Score (KPI):** Shows the total copies sold(publisher) or Avg Critic Score(Developer).
 - **Top 10 Publisher/Developer by Games:** Ranks and displays the top 10 publishers or developers by game count.
-- **Games Distribution (Console ⇄ Genre):** Shows how games for the selected console/genre are distributed across genres/consoles.
-- **Games Released Over Time:** Shows how different console or genre games has been released over time.
+- **Games Per Console/Genre Published/Developed:** Shows number of games published or developed by a publisher or developer.
+- **Games Released Over Time:** Shows how games has been released over time by publishers/developers.
 
 #### 📈 **Sales Insights**
-- **Top 10 Most Selling Consoles/Genres(Sales Type):** Ranks the top ten consoles or genres with the highest cumulative sales for different sales type(in millions).
-- **Avg. Sales Of Top 10 Consoles/Genres (Sales Type):** Shows the top 10 consoles/genres based on their average sales for different sales type.
-- **Avg. Sales per Consoles/Genres for different Genre/Console (Sales Type):** Shows how avg sales of a particular console or genre is for different genres or consoles and for different sales type.
+- **Top 10 Most Selling Publishers/Developers(Sales Type):** Ranks the top ten publishers or developers with the highest cumulative sales for different sales type(in millions).
+- **Avg. Sales Per Genre by Publishers (Sales Type):** Shows the top 10 genres with highest avg sales for a publisher for different sales type.
+
 
 #### 📈 **Critic Score Insights**
-- Compare **salaries across different education levels for both genders** to identify any discrepancies or patterns.
-- Present how the **age correlate with the salary** for employees in each department.
+- **Top 10 Developers By Avg.Critic Score:** Shows top 10 developers with best avg critic score based on minimum number of games developed.
+- **Critic Score vs Copies Sales:** Visualizes how games are scatter based on their avg score and avg sales.
 
 ## 📌Color Reference
 
