@@ -9,57 +9,48 @@ As a data analyst, I aim to create a multi-dashboard Tableau project using a glo
 
 ### 1️⃣ Game Lookup & Performance (Search View)
 A clean, card-style layout where users can search for a game and view its details.
-•	Search by Game Title and Avilable Console
-•	Game box art image (from the image column)
-•	Basic details:
-  o	Genre, Publisher, Developer
-  o	Critic Score
-  o	Release Date
-  o	Total & Regional Sales (small numbers or icons) [KPI]
-  o	Last Update Date
 
+-	Search by Game Title and Avilable Console
+
+-	Basic details: 
+
+    o	Total & Regional Sales [KPI]
+ 	
+    o	Genre, Publisher, Developer
+ 	
+    o	Critic Score  
+
+ 	  o	Release Date, Last Update Date
+  
+- Global Sales Comparison and ranks according to it.
 
 ### 2️⃣ Console & Genre Insights
-#### 📊 **Overview Section**
-The Overview section should provide a snapshot of the overall HR metrics, including:
-- Display the total number of **hired employees**, **active employees**, and **terminated employees**.  
-- Visualize the **total number of hired and terminated employees over the years**.  
-- Present a breakdown of **total employees by department and job titles**. 
-- Compare total employees between **headquarters (HQ) and branches (New York is the HQ)**.
-- Show the **distribution of employees by city and state**.  
+#### 📊 **Overview**
+- **Total Games Available (KPI):** Shows the total number of distinct games available for the selected console or genre.
+- **Average Copies Sales (KPI):** Shows the average copies sold per game (displayed in millions) for the selected console or genre
+- **Top 10 Console/Genre by Games:** Ranks and displays the top 10 consoles or genres by game count.
+- **Games Distribution (Console ⇄ Genre):** Shows how games for the selected console/genre are distributed across genres/consoles.
+- **Games Released Over Time:** Shows how different console or genre games has been released over time.
 
-#### 📈 **Demographics Section**
-The Demographics section should offer insights into the composition of the workforce, including:
-- Present the **gender ratio** in the company.  
-- Visualize the distribution of employees across **age groups** and **education levels**.
-- Show the total number of employees within each **age group**.
-- Show the total number of employees within each **education level**.
-- Present the correlation between employees’s **educational backgrounds** and their **performance ratings**.  
-
-#### 💰 **Income Analysis Section**
-The income analysis section should focus on salary-related metrics, including:
-- Compare **salaries across different education levels for both genders** to identify any discrepancies or patterns.
-- Present how the **age correlate with the salary** for employees in each department.
+#### 📈 **Sales Insights**
+- **Top 10 Most Selling Consoles/Genres(Sales Type):** Ranks the top ten consoles or genres with the highest cumulative sales for different sales type(in millions).
+- **Avg. Sales Of Top 10 Consoles/Genres (Sales Type):** Shows the top 10 consoles/genres based on their average sales for different sales type.
+- **Avg. Sales per Consoles/Genres for different Genre/Console (Sales Type):** Shows how avg sales of a particular console or genre is for different genres or consoles and for different sales type.
 
 ### 3️⃣ Publisher & Developer Insights
-#### 📊 **Overview Section**
-The Overview section should provide a snapshot of the overall HR metrics, including:
-- Display the total number of **hired employees**, **active employees**, and **terminated employees**.  
-- Visualize the **total number of hired and terminated employees over the years**.  
-- Present a breakdown of **total employees by department and job titles**. 
-- Compare total employees between **headquarters (HQ) and branches (New York is the HQ)**.
-- Show the **distribution of employees by city and state**.  
+#### 📊 **Overview**
+- **Total Games Published/Developed (KPI):** Shows the total number of games published or developed based on selection.
+- **Total Copies Sales / Avg Critic Score (KPI):** Shows the total copies sold(publisher) or Avg Critic Score(Developer).
+- **Top 10 Publisher/Developer by Games:** Ranks and displays the top 10 publishers or developers by game count.
+- **Games Distribution (Console ⇄ Genre):** Shows how games for the selected console/genre are distributed across genres/consoles.
+- **Games Released Over Time:** Shows how different console or genre games has been released over time.
 
-#### 📈 **Demographics Section**
-The Demographics section should offer insights into the composition of the workforce, including:
-- Present the **gender ratio** in the company.  
-- Visualize the distribution of employees across **age groups** and **education levels**.
-- Show the total number of employees within each **age group**.
-- Show the total number of employees within each **education level**.
-- Present the correlation between employees’s **educational backgrounds** and their **performance ratings**.  
+#### 📈 **Sales Insights**
+- **Top 10 Most Selling Consoles/Genres(Sales Type):** Ranks the top ten consoles or genres with the highest cumulative sales for different sales type(in millions).
+- **Avg. Sales Of Top 10 Consoles/Genres (Sales Type):** Shows the top 10 consoles/genres based on their average sales for different sales type.
+- **Avg. Sales per Consoles/Genres for different Genre/Console (Sales Type):** Shows how avg sales of a particular console or genre is for different genres or consoles and for different sales type.
 
-#### 💰 **Income Analysis Section**
-The income analysis section should focus on salary-related metrics, including:
+#### 📈 **Critic Score Insights**
 - Compare **salaries across different education levels for both genders** to identify any discrepancies or patterns.
 - Present how the **age correlate with the salary** for employees in each department.
 
@@ -74,23 +65,24 @@ The income analysis section should focus on salary-related metrics, including:
 
 ## 📌Dashboard Preview
 #### Game Lookup & Performance
-![Dashboard 1](https://github.com/bijoypantu/GameVerse-Insights-Dashboard/blob/main/Icons%20&%20Images/Dashboard%201.png?raw=true)
+![GameLookupView](https://github.com/bijoypantu/GameVerse-Insights-Dashboard/blob/main/Icons%20&%20Images/GameLookupView.png?raw=true)
 #### Console & Genre Insights
-![Dashboard 2](https://github.com/bijoypantu/GameVerse-Insights-Dashboard/blob/main/Icons%20&%20Images/Dashboard%202.png?raw=true)
+![ConsoleGenreView](https://github.com/bijoypantu/GameVerse-Insights-Dashboard/blob/main/Icons%20&%20Images/ConsoleGenreView.png?raw=true)
 #### Publisher & Developer Insights
-![Dashboard 3](https://github.com/bijoypantu/GameVerse-Insights-Dashboard/blob/main/Icons%20&%20Images/Dashboard%203.png?raw=true)
-#### Dashboard Link: https://public.tableau.com/app/profile/bijoy.pantu/viz/GameVerseInsightsDashboard/Dashboard1
+![PublisherDeveloperView](https://github.com/bijoypantu/GameVerse-Insights-Dashboard/blob/main/Icons%20&%20Images/PublisherDeveloperView.png?raw=true)
+#### Interact With the Dashboard Here : [Gameverse Dashboard](https://public.tableau.com/app/profile/bijoy.pantu/viz/GameVerseInsightsDashboard/Dashboard1)
 
 ## 📌 How to Use the Dashboard
-- Navigate between **Summary View & Employee Records View**.
+- Navigate between **GameLookup View, ConsoleGenre View and Publisher Developer View**.
+- **Hover** over the charts to see tooltips.
 - Click on **info** to see more information.
 - Use **interactive filters** to refine results based on demographics, salary, and location.
-
+- To download the dashboard images and pdf use the given buttons.
 ---
 
 ## 📌 Contact & Support
 For questions or support, reach out via:
 
-📩 : bijoypantu176@gmail.com  
-**in** : https://www.linkedin.com/in/bijoypantu/  
-𝕏 : https://x.com/BijoyPantu
+[Email](bijoypantu176@gmail.com)  
+[LinkedIn](https://www.linkedin.com/in/bijoypantu/)  
+[𝕏](https://x.com/BijoyPantu)
